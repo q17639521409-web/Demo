@@ -1,0 +1,42 @@
+# 构建结果 (Build results)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio 缓存与用户文件
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 调试符号与临时文件
+*.pdb
+*.tmp
+*.log
+*.vspscc
+
+# NuGet 包（老式 packages 目录）
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+
+# 测试结果
+[Tt]est[Rr]esult*/
+
+
+# 在仓库根执行
+cat >> .gitignore <<'EOF'
+
+# 构建产物（全局）
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+EOF
+
+# 验证
+git check-ignore -v demo/MyDemoApp/obj/
