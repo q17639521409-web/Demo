@@ -40,3 +40,4 @@ EOF
 
 # 验证
 git check-ignore -v demo/MyDemoApp/obj/
+demo/MyTool/bin
