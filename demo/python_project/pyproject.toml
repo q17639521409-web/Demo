@@ -1,0 +1,16 @@
+[project]
+name = "python-project"
+version = "0.1.0"
+description = "A simple Python demo project."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://example.com"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
