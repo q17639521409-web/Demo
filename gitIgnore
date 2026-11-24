@@ -26,3 +26,17 @@ x86/
 
 # 测试结果
 [Tt]est[Rr]esult*/
+
+
+# 在仓库根执行
+cat >> .gitignore <<'EOF'
+
+# 构建产物（全局）
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+EOF
+
+# 验证
+git check-ignore -v demo/MyDemoApp/obj/
