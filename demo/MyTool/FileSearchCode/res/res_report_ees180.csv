@@ -1,0 +1,30 @@
+﻿搜索报告
+生成时间: 2026-11-24 11:09:28
+搜索文本: TCP error code 10061
+扫描路径(共1项，文件夹/文件混合):
+  [目录] C:\Users\3000100552\Downloads\Down\lot
+
+【汇总统计】
+匹配总次数, 3
+扫描文件数, 331
+扫描压缩包, 331
+匹配到的独立文件数, 3
+耗时(秒), 16.95
+
+【按单个文件统计】
+匹配总次数,3,,,命中文件总数,3
+序号,匹配数,位置,真实文件名,压缩包路径,压缩包内条目,普通文件路径
+1,1,[压缩包],SEE.1.CSJ-MP-EES180.43[23-38-26][23-39].zip!SEE.1.CSJ-MP-EES180.43,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.1.CSJ-MP-EES180.43[23-38-26][23-39].zip,SEE.1.CSJ-MP-EES180.43,
+2,1,[压缩包],SEE.2.CSJ-MP-EES180.33[20-43-09][20-44].zip!SEE.2.CSJ-MP-EES180.33,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.2.CSJ-MP-EES180.33[20-43-09][20-44].zip,SEE.2.CSJ-MP-EES180.33,
+3,1,[压缩包],SEE.4.CSJ-MP-EES180.48[00-53-46][00-54].zip!SEE.4.CSJ-MP-EES180.48,C:\Users\3000100552\Downloads\Down\lot\2026-11-24\SEE\SEE.4.CSJ-MP-EES180.48[00-53-46][00-54].zip,SEE.4.CSJ-MP-EES180.48,
+
+【按文件夹统计】
+文件夹路径,匹配数,文件数
+C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE,2,171
+C:\Users\3000100552\Downloads\Down\lot\2026-11-24\SEE,1,160
+
+【匹配明细】
+序号,匹配行号,位置,真实文件名,文件完整路径,压缩包路径,压缩包条目,行内容
+1,7213,[压缩包],SEE.1.CSJ-MP-EES180.43[23-38-26][23-39].zip!SEE.1.CSJ-MP-EES180.43,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.1.CSJ-MP-EES180.43[23-38-26][23-39].zip!SEE.1.CSJ-MP-EES180.43,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.1.CSJ-MP-EES180.43[23-38-26][23-39].zip,SEE.1.CSJ-MP-EES180.43,2026/11/23	23:24:46.2481	CSJ-MP-EES180	SEE	8464	SEE.1	SEE.svc	AuditWarning		Failed to connect to discovery server at url net.tcp://10.71.88.108:61101/Discovery.svc. Exception is Could not connect to net.tcp://10.71.88.108:61101/Discovery.svc/IService. The connection attempt lasted for a time span of 00:00:01.0156466. TCP error code 10061: No connection could be made because the target machine actively refused it 10.71.88.108:61101. .
+2,55896,[压缩包],SEE.2.CSJ-MP-EES180.33[20-43-09][20-44].zip!SEE.2.CSJ-MP-EES180.33,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.2.CSJ-MP-EES180.33[20-43-09][20-44].zip!SEE.2.CSJ-MP-EES180.33,C:\Users\3000100552\Downloads\Down\lot\2026-11-23\SEE\SEE.2.CSJ-MP-EES180.33[20-43-09][20-44].zip,SEE.2.CSJ-MP-EES180.33,2026/11/23	20:35:25.5475	CSJ-MP-EES180	SEE	4216	SEE.2	SEE.svc	AuditWarning		Failed to connect to discovery server at url net.tcp://10.71.88.108:61102/Discovery.svc. Exception is Could not connect to net.tcp://10.71.88.108:61102/Discovery.svc/IService. The connection attempt lasted for a time span of 00:00:01.0167991. TCP error code 10061: No connection could be made because the target machine actively refused it 10.71.88.108:61102. .
+3,26843,[压缩包],SEE.4.CSJ-MP-EES180.48[00-53-46][00-54].zip!SEE.4.CSJ-MP-EES180.48,C:\Users\3000100552\Downloads\Down\lot\2026-11-24\SEE\SEE.4.CSJ-MP-EES180.48[00-53-46][00-54].zip!SEE.4.CSJ-MP-EES180.48,C:\Users\3000100552\Downloads\Down\lot\2026-11-24\SEE\SEE.4.CSJ-MP-EES180.48[00-53-46][00-54].zip,SEE.4.CSJ-MP-EES180.48,2026/11/24	00:46:51.5669	CSJ-MP-EES180	SEE	9484	SEE.4	SEE.svc	AuditWarning		Failed to connect to discovery server at url net.tcp://10.71.88.108:61101/Discovery.svc. Exception is Could not connect to net.tcp://10.71.88.108:61101/Discovery.svc/IService. The connection attempt lasted for a time span of 00:00:01.0156284. TCP error code 10061: No connection could be made because the target machine actively refused it 10.71.88.108:61101. .

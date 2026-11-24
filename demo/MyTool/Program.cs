@@ -33,7 +33,7 @@ var options = new SearchOptions
         //@"C:\Users\3000100552\Downloads\archive_package\202608_logs.zip",
 
         // 示例1：文件夹 → 递归扫描其中所有子目录及文件
-        @"C:\Users\3000100552\Downloads\Down\lot\116",
+        @"C:\Users\3000100552\Downloads\Down\lot",
     },
     SearchText = "TCP error code 10061",//10060  10061   Exception is Could not connect to net   TCP error code 10061:        No Url Found    Error Code = 3014683, Source = Camstar.XMLClient.API.csiConnectionImpl.createSession()
     //SearchText = @"10060|10061",//正则匹配
@@ -50,9 +50,9 @@ var options = new SearchOptions
 // 旧写法 SearchFolders 依然可用（也已兼容文件夹+文件混合），但推荐切到 SearchPaths
 // options.SearchFolders = new List<string> { @"C:\Users\3000100552\Downloads\logs" };
 var result = searcher.Search(options);
-string reportDir = @"C:\Achong\M\Project\demo\MyTool\FileSearchCode\resnew";
+string reportDir = @"C:\Achong\M\Project\GitHub\Demo\demo\MyTool\FileSearchCode\res";
 if (!Directory.Exists(reportDir)) Directory.CreateDirectory(reportDir);
-var path = @"ees116".Replace(@"\", "_");
+var path = @"ees180".Replace(@"\", "_");
 path = path.Replace(@"-", "_");
 string reportCsv = Path.Combine(reportDir, $"res_report_{path}.csv");
 searcher.ExportReportToFile(result, options, reportCsv);
